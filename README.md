@@ -27,9 +27,9 @@ Upload a recording or slides → get a structured notebook with summaries, defin
 
 ## 🎬 Demo
 
-▶️ **Try it live: [chillinotes.com](https://chillinotes.com)**
+<p align="center"><img src="screenshots/demo.gif" alt="ChilliNotes demo" width="820" /></p>
 
-_(A walkthrough video is also in the repo: [screenshots/demo.mp4](screenshots/demo.mp4))_
+▶️ **Try it live: [chillinotes.com](https://chillinotes.com)**
 
 ---
 

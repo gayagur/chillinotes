@@ -6,4 +6,4 @@ Used by the main README:
 - `upload.png` — the "new lesson" upload modal
 - `notebook.png` — a generated notebook
 - `dashboard.png` — the dashboard (espresso sidebar, weekly hero, stat & course cards)
-- `demo.mp4` — product walkthrough video (embedded in the README)
+- `demo.gif` — product walkthrough (embedded in the README; compressed to ~7 MB so GitHub renders it inline)
