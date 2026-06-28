@@ -1,11 +1,9 @@
-# Screenshots
+# Screenshots & media
 
-Drop these PNGs here (referenced by the main README):
+Used by the main README:
 
-- `home.png` — dashboard / home (used as the hero image)
+- `home.png` — landing hero (README top)
 - `upload.png` — the "new lesson" upload modal
 - `notebook.png` — a generated notebook
-- `flashcards.png` — the flashcards view
-- `dashboard.png` — dashboard overview
-
-Tip: capture at a consistent width (e.g. ~1400px) for a clean README.
+- `dashboard.png` — the dashboard (espresso sidebar, weekly hero, stat & course cards)
+- `demo.mp4` — product walkthrough video (embedded in the README)

@@ -19,9 +19,19 @@ Upload a recording or slides → get a structured notebook with summaries, defin
   <img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 </p>
 
-<img width="900" src="screenshots/home.png" alt="ChilliNotes dashboard" />
+<img width="900" src="screenshots/home.png" alt="ChilliNotes landing" />
 
 </div>
+
+---
+
+## 🎬 Demo
+
+A short walkthrough of the product:
+
+<video src="https://github.com/gayagur/chillinotes/raw/main/screenshots/demo.mp4" controls width="820"></video>
+
+▶️ If the player doesn't load inline, [watch the demo here](screenshots/demo.mp4).
 
 ---
 
@@ -46,7 +56,7 @@ Fully **RTL (Hebrew-first)** with English support.
 <p align="center">
   <img width="270" src="screenshots/upload.png" alt="Upload a lesson" />
   <img width="270" src="screenshots/notebook.png" alt="Generated notebook" />
-  <img width="270" src="screenshots/flashcards.png" alt="Flashcards" />
+  <img width="270" src="screenshots/dashboard.png" alt="Dashboard" />
 </p>
 
 ---
