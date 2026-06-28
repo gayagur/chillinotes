@@ -63,8 +63,6 @@ Fully **RTL (Hebrew-first)** with English support.
 
 ## 🏗 Architecture
 
-<p align="center"><img width="820" src="docs/architecture.png" alt="System architecture" /></p>
-
 The Next.js app handles auth, data, and uploads; heavy generation runs on a separate **Cloud Run** worker so requests never block on long AI jobs.
 
 ```mermaid
@@ -76,7 +74,17 @@ flowchart LR
   N --> X[Flashcards · Formula sheets · Practice exams]
 ```
 
-<p align="center"><img width="820" src="docs/pipeline.png" alt="Generation pipeline" /></p>
+```text
+Browser ─▶ Next.js (Vercel)
+             ├─ Supabase Auth + Postgres (RLS)
+             ├─ Google Cloud Storage (signed uploads)
+             └─▶ Cloud Run worker
+                   ├─ Speech-to-Text
+                   ├─ Gemini 2.5 (Vertex AI)
+                   └─ Notebook generator ─▶ PDF / HTML + study tools
+```
+
+> _Optional: drop a polished `docs/architecture.png` / `docs/pipeline.png` in `docs/` and embed them here if you want custom diagrams._
 
 ---
 
